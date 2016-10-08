@@ -1,0 +1,1 @@
+sh apkpatch.sh -f 1.apk -t 0.apk -o Dennis -k keystore -p 123456 -a panmin -e 123456
