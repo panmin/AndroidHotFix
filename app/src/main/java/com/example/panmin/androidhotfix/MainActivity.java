@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tvText = (TextView) findViewById(R.id.tv_text);
-        tvText.setText("有补丁版本1.0");
+        tvText.setText("有补丁版本1");
     }
+    /*@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        tvText = (TextView) findViewById(R.id.tv_text);
+        tvText.setText("有补丁版本2");
+    }*/
 }
